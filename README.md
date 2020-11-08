@@ -1,4 +1,4 @@
-<h4>Forder Structure</h4>
+<h4>Folder Structure</h4>
 <pre>
 |- root folder
   |- library
