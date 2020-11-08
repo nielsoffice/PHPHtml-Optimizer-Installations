@@ -1,4 +1,17 @@
-
+<h4>Forder Structure</h4>
+<pre>
+|- root folder
+  |- library
+    |- PHPHtml-Optimizer
+       |- optimizer
+       |- merge
+       |- PHPHtml-optimizer.php
+       |- prop.php
+  |- assets
+  |- includes
+  |- index.php
+  |- etc...
+</pre>
 <h4>Downloading PHPHtml-Optimizer</h4>
 <pre>
 // Run Command line directory with your project folder
