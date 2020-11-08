@@ -10,7 +10,7 @@
 <h6>Installing PHPHtml-Optimizer</h6>
 <pre>
 // On the very top of your header.php file
-require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br />
+require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
 </pre>	
 
 <h6>Using Class Static and Instantiate</h6>
