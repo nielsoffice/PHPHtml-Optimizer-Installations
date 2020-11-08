@@ -62,7 +62,7 @@ require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br /
   |- Theme
      |- YourTheme
        |- library // Create folder named library 
-		  |- PHPHtml-Optimizer
+       |- PHPHtml-Optimizer
           |- optimizer
           |- merge
           |- PHPHtml-optimizer.php
