@@ -43,7 +43,7 @@ $FileEnhance = NEW OptimizerCare();	<br />
 
 <h6>WordPress Installation </h6>
 <pre>
-// Copy paste this line of code on your functions.php theme file
+// Copy paste this line of codes on your functions.php theme file
 require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
 </pre>
 <h6>WordPress Installation | USAGE: files/pages.php </h6>	
