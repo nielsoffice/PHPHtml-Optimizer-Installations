@@ -41,6 +41,48 @@ $FileEnhance = NEW OptimizerCare();	<br />
 ...
 </pre>
 
+<h6>WordPress Installation </h6>
+<pre>
+// Copy paste this line of code on your functions.php theme file
+require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
+</pre>
+<h6>WordPress Installation | USAGE: files/pages.php </h6>	
+<pre>
+USE \PHPHtml\CodeOptimizer\merge\Html;
+USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
+USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;<br />
+
+$Html = NEW Optimizer();
+$FileEnhance = NEW OptimizerCare();	<br />
+
+// your code goes here ...
+</pre>
+
+<h6>Drupal Installation </h6>
+<pre>
+...
+</pre>
+
+<h6>Joomla Installation </h6>
+<pre>
+...
+</pre>
+
+<h6>Magento 2 Installation </h6>
+<pre>
+...
+</pre>
+
+<h6>CodeIgniter Installation </h6>
+<pre>
+...
+</pre>
+
+<h6>Laravel Installation </h6>
+<pre>
+...
+</pre>
+
 For more examples and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Docx"> Documentation link here </a><br /> 
 For File Enhancers and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Enhancers"> Documentation/Reference link here </a><br /> 
 For Developer <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer/issues"> Support link here </a><br /> 
