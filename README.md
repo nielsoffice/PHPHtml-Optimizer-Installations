@@ -1,27 +1,19 @@
 <h4>Installing PHPHtml-Optimizer</h4>
 <pre>
-
 // Require file in header file or in every page where you will use.
-require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
-
+require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br />
 // Static Default
-USE \PHPHtml\CodeOptimizer\merge\Html;
-
+USE \PHPHtml\CodeOptimizer\merge\Html; <br />
 // Static Alias
-USE \PHPHtml\CodeOptimizer\merge\Html AS MyHTML;
-
+USE \PHPHtml\CodeOptimizer\merge\Html AS MyHTML; <br />
 // Instantiate Default
-$html = NEW \PHPHtml\CodeOptimizer\optimizer\Html();
-
+$html = NEW \PHPHtml\CodeOptimizer\optimizer\Html(); <br />
 // Instantiate Alias
-USE \PHPHtml\CodeOptimizer\optimizer\Html AS MyElement;
-
+USE \PHPHtml\CodeOptimizer\optimizer\Html AS MyElement; <br />
 // Instantiate Default
-$Enhancer = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers();
-
+$Enhancer = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); <br />
 // Instantiate Alias
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
-
 </pre>
 
 For more examples and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Docx"> Documentation link here </a><br /> 
