@@ -31,8 +31,7 @@ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
 
 <h6>Quick Start Instantate Classes </h6>
 <pre>
-// header.php | footer.php | page.php
-require_once __DIR__ . '/PHPHtml-Optimizer/PHPHtml-Optimizer.php';<br />
+// Usages: files/pages.php<br />
 USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;<br />
