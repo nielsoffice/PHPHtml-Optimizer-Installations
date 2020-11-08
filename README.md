@@ -7,8 +7,8 @@
        |- merge
        |- PHPHtml-optimizer.php
        |- prop.php
-  |- assets
   |- includes
+  |- portfolio.php
   |- index.php
   |- etc...
 </pre>
