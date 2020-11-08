@@ -38,7 +38,7 @@ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;<br />
 
 $Html = NEW Optimizer();
 $FileEnhance = NEW OptimizerCare();	<br />
-...<br />
+...
 </pre>
 
 For more examples and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Docx"> Documentation link here </a><br /> 
