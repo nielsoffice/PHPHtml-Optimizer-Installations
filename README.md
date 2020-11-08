@@ -57,7 +57,21 @@ $FileEnhance = NEW OptimizerCare();	<br />
 <h6>WordPress Installation </h6>
 <pre>
 // Copy paste this line of codes on your functions.php theme file
-require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
+require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br />
+|- wp-content
+  |- Theme
+     |- YourTheme
+       |- library // Create folder named library 
+		  |- PHPHtml-Optimizer
+          |- optimizer
+          |- merge
+          |- PHPHtml-optimizer.php
+          |- prop.php
+       |- includes
+       |- page.php
+       |- single.php
+       |- index.php
+       |- etc..
 </pre>
 <h6>WordPress Installation | USAGE: files/pages.php </h6>	
 <pre>
