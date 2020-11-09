@@ -5,7 +5,7 @@
 <a href="#Instantiate"> - Using Class Static and Instantiate</a><br />
 <a href="#QuickStart"> - Quick Start Instantate Classes</a><br />
 <a href="#WordPressInstallation"> - WordPress Installation</a><br />
-<a href="#WordPressInstallation"> WordPress USAGE  </a><br />
+<a href="#WordPressInstallation"> - WordPress USAGE  </a><br />
 <a href="#Drupal"> - Drupal Installation </a><br />
 <a href="#Joomla"> - Joomla Installation </a><br />
 <a href="#Magento"> - Magento 2 Installation </a><br />
