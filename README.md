@@ -1,16 +1,16 @@
 <h5>Table of Content</h5>
-<a href="FolderStructure">Folder Structure</a><br />
-<a href="DownloadingPHPHtml-Optimizer">Downloading PHPHtml-Optimizer</a><br />
-<a href="InstallingPHPHtml-Optimizer">Installing PHPHtml-Optimizer</a><br />
-<a href="Instantiate">Using Class Static and Instantiate</a><br />
-<a href="QuickStart">Quick Start Instantate Classes</a><br />
-<a href="WordPressInstallation">WordPress Installation</a><br />
-<a href="WordPressInstallation"> WordPress USAGE  </a><br />
-<a href="Drupal"> Drupal Installation </a><br />
-<a href="Joomla">Joomla Installation </a><br />
-<a href="Magento">Magento 2 Installation </a><br />
-<a href="CodeIgniter">CodeIgniter Installation  </a><br />
-<a href="LaravelCodeIgniter">Laravel Installation  </a><br />
+<a href="#FolderStructure">Folder Structure</a><br />
+<a href="#DownloadingPHPHtml-Optimizer">Downloading PHPHtml-Optimizer</a><br />
+<a href="#InstallingPHPHtml-Optimizer">Installing PHPHtml-Optimizer</a><br />
+<a href="#Instantiate">Using Class Static and Instantiate</a><br />
+<a href="#QuickStart">Quick Start Instantate Classes</a><br />
+<a href="#WordPressInstallation">WordPress Installation</a><br />
+<a href="#WordPressInstallation"> WordPress USAGE  </a><br />
+<a href="#Drupal"> Drupal Installation </a><br />
+<a href="#Joomla">Joomla Installation </a><br />
+<a href="#Magento">Magento 2 Installation </a><br />
+<a href="#CodeIgniter">CodeIgniter Installation  </a><br />
+<a href="#LaravelCodeIgniter">Laravel Installation  </a><br />
 
 <h4 id="FolderStructure">Folder Structure</h4>
 <pre>
