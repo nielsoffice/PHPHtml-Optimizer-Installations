@@ -1,4 +1,18 @@
-<h4>Folder Structure</h4>
+<h5>Table of Content</h5>
+<a href="FolderStructure">Folder Structure</a>
+<a href="DownloadingPHPHtml-Optimizer">Downloading PHPHtml-Optimizer</a>
+<a href="InstallingPHPHtml-Optimizer">Installing PHPHtml-Optimizer</a>
+<a href="Instantiate">Using Class Static and Instantiate</a>
+<a href="QuickStart">Quick Start Instantate Classes</a>
+<a href="WordPressInstallation">WordPress Installation</a>
+<a href="WordPressInstallation"> WordPress USAGE  </a>
+<a href="Drupal"> Drupal Installation </a>
+<a href="Joomla">Joomla Installation </a>
+<a href="Magento">Magento 2 Installation </a>
+<a href="CodeIgniter">CodeIgniter Installation  </a>
+<a href="LaravelCodeIgniter">Laravel Installation  </a>
+
+<h4 id="FolderStructure">Folder Structure</h4>
 <pre>
 |- root folder
   |- library
@@ -12,7 +26,7 @@
   |- index.php
   |- etc...
 </pre>
-<h4>Downloading PHPHtml-Optimizer</h4>
+<h4 id="DownloadingPHPHtml-Optimizer">Downloading PHPHtml-Optimizer</h4>
 <pre>
 // Run Command line directory with your project folder
 ~ C:/path/www/project/Library/ <br />
@@ -20,13 +34,13 @@
 ~ composer require phphtml-optimizer/phphtml-optimizer<br />	
 </pre>
 
-<h6>Installing PHPHtml-Optimizer</h6>
+<h6 id="InstallingPHPHtml-Optimizer">Installing PHPHtml-Optimizer</h6>
 <pre>
 // On the very top of your header.php file
 require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
 </pre>	
 
-<h6>Using Class Static and Instantiate</h6>
+<h6 id="Instantiate">Using Class Static and Instantiate</h6>
 <pre>
 // Static Default
 USE \PHPHtml\CodeOptimizer\merge\Html; <br />
@@ -42,7 +56,7 @@ $Enhancer = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); <br />
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
 </pre>
 
-<h6>Quick Start Instantate Classes </h6>
+<h6 id="QuickStart">Quick Start Instantate Classes </h6>
 <pre>
 // Usages: files/pages.php<br />
 USE \PHPHtml\CodeOptimizer\merge\Html;
@@ -54,7 +68,7 @@ $FileEnhance = NEW OptimizerCare();	<br />
 ...
 </pre>
 
-<h6>WordPress Installation </h6>
+<h6 id="WordPressInstallation">WordPress Installation </h6>
 <pre>
 // Copy paste this line of codes on your functions.php theme file
 require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br />
@@ -73,7 +87,7 @@ require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br /
        |- index.php
        |- etc..
 </pre>
-<h6>WordPress Installation | USAGE: files/pages.php </h6>	
+<h6 id="wpUSAGE">WordPress Installation | USAGE: files/pages.php </h6>	
 <pre>
 USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
@@ -85,27 +99,27 @@ $FileEnhance = NEW OptimizerCare();	<br />
 // your code goes here ...
 </pre>
 
-<h6>Drupal Installation </h6>
+<h6 id="Drupal">Drupal Installation </h6>
 <pre>
 ...
 </pre>
 
-<h6>Joomla Installation </h6>
+<h6 id="Joomla">Joomla Installation </h6>
 <pre>
 ...
 </pre>
 
-<h6>Magento 2 Installation </h6>
+<h6 id="Magento">Magento 2 Installation </h6>
 <pre>
 ...
 </pre>
 
-<h6>CodeIgniter Installation </h6>
+<h6 id="CodeIgniter">CodeIgniter Installation </h6>
 <pre>
 ...
 </pre>
 
-<h6>Laravel Installation </h6>
+<h6 id="Laravel">Laravel Installation </h6>
 <pre>
 ...
 </pre>
