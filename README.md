@@ -35,7 +35,8 @@
 ```PHP
 
 // Run Command line directory with your project folder
-~ C:/path/www/project/Library/ <br />
+~ C:/path/www/project/Library/ 
+
 // Run command
 ~ composer require phphtml-optimizer/phphtml-optimizer	
 
