@@ -13,7 +13,9 @@
 <a href="#LaravelCodeIgniter"> - Laravel Installation  </a><br />
 
 <h4 id="FolderStructure">Folder Structure</h4>
-<pre>
+
+```PHP
+
 |- root folder
   |- library
     |- PHPHtml-Optimizer
@@ -25,53 +27,75 @@
   |- portfolio.php
   |- index.php
   |- etc...
-</pre>
+
+```
+
 <h4 id="DownloadingPHPHtml-Optimizer">Downloading PHPHtml-Optimizer</h4>
-<pre>
+
+```PHP
+
 // Run Command line directory with your project folder
 ~ C:/path/www/project/Library/ <br />
 // Run command
-~ composer require phphtml-optimizer/phphtml-optimizer<br />	
-</pre>
+~ composer require phphtml-optimizer/phphtml-optimizer	
+
+```
 
 <h6 id="InstallingPHPHtml-Optimizer">Installing PHPHtml-Optimizer</h6>
-<pre>
+
+```PHP
+
 // On the very top of your header.php file
 require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
-</pre>	
+
+```
 
 <h6 id="Instantiate">Using Class Static and Instantiate</h6>
-<pre>
+
+```PHP
+
 // Static Default
-USE \PHPHtml\CodeOptimizer\merge\Html; <br />
+USE \PHPHtml\CodeOptimizer\merge\Html; 
+
 // Static Alias
-USE \PHPHtml\CodeOptimizer\merge\Html AS MyHTML; <br />
+USE \PHPHtml\CodeOptimizer\merge\Html AS MyHTML;
+
 // Instantiate Default
-$html = NEW \PHPHtml\CodeOptimizer\optimizer\Html(); <br />
+$html = NEW \PHPHtml\CodeOptimizer\optimizer\Html(); 
+
 // Instantiate Alias
-USE \PHPHtml\CodeOptimizer\optimizer\Html AS MyElement; <br />
+USE \PHPHtml\CodeOptimizer\optimizer\Html AS MyElement; 
+
 // Instantiate Default
-$Enhancer = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); <br />
+$Enhancer = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); 
+
 // Instantiate Alias
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
-</pre>
+
+```
 
 <h6 id="QuickStart">Quick Start Instantate Classes </h6>
-<pre>
+
+```PHP
+
 // Usages: files/pages.php<br />
 USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
-USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;<br />
+USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;
 
 $Html = NEW Optimizer();
-$FileEnhance = NEW OptimizerCare();	<br />
+$FileEnhance = NEW OptimizerCare();	
 ...
-</pre>
+
+```
 
 <h6 id="WordPressInstallation">WordPress Installation </h6>
-<pre>
+
+```PHP
+
 // Copy paste this line of codes on your functions.php theme file
-require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br />
+require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; 
+
 |- wp-content
   |- Theme
      |- YourTheme
@@ -86,43 +110,63 @@ require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; <br /
        |- single.php
        |- index.php
        |- etc..
-</pre>
+
+```
+
 <h6 id="wpUSAGE">WordPress Installation | USAGE: files/pages.php </h6>	
-<pre>
+
+```PHP
+
 USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
-USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;<br />
+USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;
 
 $Html = NEW Optimizer();
-$FileEnhance = NEW OptimizerCare();	<br />
+$FileEnhance = NEW OptimizerCare();	
 
 // your code goes here ...
-</pre>
+
+```
 
 <h6 id="Drupal">Drupal Installation </h6>
-<pre>
+
+```PHP
+
 ...
-</pre>
+
+```
 
 <h6 id="Joomla">Joomla Installation </h6>
-<pre>
+
+```PHP
+
 ...
-</pre>
+
+```
 
 <h6 id="Magento">Magento 2 Installation </h6>
-<pre>
+
+```PHP
+
 ...
-</pre>
+
+```
 
 <h6 id="CodeIgniter">CodeIgniter Installation </h6>
-<pre>
+
+```PHP
+
 ...
-</pre>
+
+```
 
 <h6 id="Laravel">Laravel Installation </h6>
-<pre>
+
+```PHP
+
 ...
-</pre>
+
+```
 
 For more examples and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Docx"> Documentation link here </a><br /> 
 For File Enhancers and <a href="https://github.com/nielsofficeofficial/PHPHtml-Optimizer-Enhancers"> Documentation/Reference link here </a><br /> 
