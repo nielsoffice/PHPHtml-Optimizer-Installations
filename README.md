@@ -75,6 +75,24 @@ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
 
 ```
 
+<h4>Reference: config.php </h4>
+
+```PHP
+
+ |- root/Theme : 
+   |- Library 
+     |- PHPHtml-Optimizer
+   |- index.php
+   |- portfolio.php
+   |- config.php       
+
+ <?php $Care = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); ?>
+ <?php 
+ 
+ ...
+
+```
+
 <h6 id="QuickStart">Quick Start Instantate Classes </h6>
 
 ```PHP
