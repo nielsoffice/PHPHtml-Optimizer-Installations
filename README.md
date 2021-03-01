@@ -84,7 +84,7 @@ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
      |- PHPHtml-Optimizer
    |- index.php
    |- portfolio.php
-   |- config.php       
+   |- directories.php       
 
  <?php $Care = NEW \PHPHtml\CodeOptimizer\optimizer\Enhancers(); ?>
  <?php 
