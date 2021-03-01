@@ -75,7 +75,7 @@ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCar();
 
 ```
 
-<h4>Reference: config.php </h4>
+<h4>Reference: directories.php </h4>
 
 ```PHP
 
@@ -102,8 +102,8 @@ USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;
 
-$Html = NEW Optimizer();
-$FileEnhance = NEW OptimizerCare();	
+$html        = NEW Optimizer();
+$fileEnhance = NEW OptimizerCare();	
 ...
 
 ```
