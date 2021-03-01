@@ -111,6 +111,8 @@ $FileEnhance = NEW OptimizerCare();
 <h6 id="WordPressInstallation">WordPress Installation </h6>
 
 ```PHP
+// Download WordPress via Composer then Open Shell Create project folder run snippet code
+composer require roots/wordpress
 
 // Copy paste this line of codes on your functions.php theme file
 require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; 
