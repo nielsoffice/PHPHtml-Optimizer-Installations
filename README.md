@@ -115,7 +115,7 @@ $fileEnhance = NEW OptimizerCare();
 composer require roots/wordpress
 
 // Copy paste this line of codes on your functions.php theme file
-require_once __DIR__ . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; 
+require get_template_directory() . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; 
 
 |- wp-content
   |- Theme
