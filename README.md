@@ -114,8 +114,15 @@ $fileEnhance = NEW OptimizerCare();
 // Download WordPress via Composer then Open Shell Create project folder run snippet code
 composer require roots/wordpress
 
-// Copy paste this line of codes on your functions.php theme file
-require get_template_directory() . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php'; 
+// Copy paste this line of codes on your header.php theme file
+ require get_template_directory() . '/library/PHPHtml-Optimizer/PHPHtml-Optimizer.php';
+
+ USE \PHPHtml\CodeOptimizer\merge\Html;
+ USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
+ USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;
+
+ NEW Optimizer();
+ NEW OptimizerCare();	 
 
 |- wp-content
   |- Theme
@@ -142,8 +149,8 @@ USE \PHPHtml\CodeOptimizer\merge\Html;
 USE \PHPHtml\CodeOptimizer\optimizer\Html AS Optimizer;
 USE \PHPHtml\CodeOptimizer\optimizer\Enhancers AS OptimizerCare;
 
-$Html = NEW Optimizer();
-$FileEnhance = NEW OptimizerCare();	
+$html = NEW Optimizer();
+$fileEnhance = NEW OptimizerCare();	
 
 // your code goes here ...
 
